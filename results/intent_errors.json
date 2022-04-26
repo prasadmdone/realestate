@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Sell Property",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "sell",
+      "confidence": 0.7681213617324829
+    }
+  }
+]

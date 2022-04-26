@@ -1,0 +1,211 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: start
+  examples: |
+    - get started
+    - lets start
+    - lets begin
+- intent: buy
+  examples: |
+    - i want to buy a house
+    - i want to buy a flat
+    - i want to buy a home
+    - i want to buy an apartment
+    - Buy Property
+- intent: sell
+  examples: |
+    - i want to sell my old house
+    - i want to sell my house
+    - i want to know the selling price of my house
+    - Sell Property
+- intent: know_more
+  examples: |
+    - i want to know more about you
+    - where can i find website link
+    - i want to know more
+- intent: Budget
+  examples: |
+    - [below 30 lac](budget)
+    - [30-50 lac](budget)
+    - [50-70 lac](budget)
+    - [70-90 lac](budget)
+    - [1 cr and above](budget)
+    - [below 30 lakh](budget)
+    - [30-50 lakh](budget)
+    - [50-70 lakh](budget)
+    - [70-90 lakh](budget)
+    - [1 crore and above](budget)
+    - [5000000-7000000](budget)
+    - [7000000-9000000](budget)
+    - [10000000 and above(budget)
+    - [50-70 lakh](budget)
+- intent: Area
+  examples: |
+    - [1000sqft](area)
+    - [1500sqft](area)
+    - [2000sqft](area)
+    - [800sqft](area)
+    - [500sqft](area)
+    - below [500sqft](area)
+    - above [1500sqft](area)
+    - above [2000sqft](area)
+    - above [4000sqft](area)
+    - above [5000sqft](area)
+    - below [1500sqft](area)
+    - below [2000sqft](area)
+    - below [4000sqft](area)
+    - below [5000sqft](area)
+    - above [1500sqft](area)
+    - [3000 sqft](area)
+- intent: Name
+  examples: |
+    - [saurav kumar](name)
+    - [adam](name)
+    - [harsha](name)
+    - [bruce](name)
+    - [alicia](name)
+    - [marshall](name)
+    - [rahul](name)
+    - [sapna](name)
+    - [shreya](name)
+    - [shubham](name)
+- intent: Email
+  examples: |
+    - [saurav@gmail.com](email)
+    - [rahul@gmail.com](email)
+    - [lord123@gmail.com](email)
+    - [sapna56@gmail.com](email)
+    - [shubham22@gmail.com](email)
+    - [shreya23@gmail.com](email)
+    - [adam@gmail.com](email)
+    - [harsha@gmail.com](email)
+    - [bruce54@gmail.com](email)
+    - [alicia@gmail.com](email)
+    - [marshall@gmail.com](email)
+    - [shubham22@gmail.com](email)
+- intent: Phone
+  examples: |
+    - [1234567890](phone)
+    - [9999999999](phone)
+    - [8888888888](phone)
+    - [+91-9203291221](phone)
+    - [+91-9205429823](phone)
+    - [+91-8905429823](phone)
+    - [+91-9203291221](phone)
+- intent: Timeline
+  examples: |
+    - [Immediately](timeline)
+    - within [a month](timeline)
+    - within the next [3 months](timeline)
+    - after [3 months](timeline)
+    - [6 months] and after(timeline)
+    - in [a month](timeline)
+    - [a month](timeline)
+- intent: Location
+  examples: |
+    - [Lucknow](location)
+    - [Bangalore](location)
+    - [Mumbai](location)
+    - [kolkata](location)
+    - [noida](location)
+    - [Delhi](location)
+    - [gurgaon](location)
+    - [kochi](location)
+    - [hyderabad]](location)
+    - [varansi](location)
+    - [Kanpur](location)
+    - [chennai](location)
+    - [jaipur](location)
+    - [pune](location)
+    - [surat](location)
+    - [kanpur](location)
+    - [kanpur](location)
+- intent: property_type
+  examples: |
+    - Residential Real Estate
+    - Commercial Real Estate
+    - Industrial Real Estate
+    - Investing in Land
+
